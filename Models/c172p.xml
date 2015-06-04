@@ -5040,7 +5040,7 @@
   <animation>
     <type>rotate</type>
     <object-name>Ldamper</object-name>
-    <property>gear/gear[21]/compression-norm</property>
+    <property>gear/gear[13]/compression-norm</property>
     <factor>91.5</factor>
     <center>
       <x-m>-3.599</x-m>
@@ -5057,7 +5057,7 @@
   <animation>
     <type>translate</type>
     <object-name>LeftFrontGear</object-name>
-    <property>gear/gear[21]/position-norm</property>
+    <property>gear/gear[13]/position-norm</property>
     <interpolation>
 	  <entry>
         <ind>0.0</ind>
@@ -5083,7 +5083,7 @@
   <animation>
     <type>translate</type>
     <object-name>Lstrut.002</object-name>
-    <property>gear/gear[21]/position-norm</property>
+    <property>gear/gear[13]/position-norm</property>
     <interpolation>
       <entry>
         <ind>0.0</ind>
@@ -5109,7 +5109,7 @@
   <animation>
     <type>rotate</type>
     <object-name>Rdamper</object-name>
-    <property>gear/gear[22]/compression-norm</property>
+    <property>gear/gear[14]/compression-norm</property>
     <factor>91.5</factor>
     <center>
       <x-m>-3.599</x-m>
@@ -5126,7 +5126,7 @@
   <animation>
     <type>translate</type>
     <object-name>RightFrontGear</object-name>
-    <property>gear/gear[22]/position-norm</property>
+    <property>gear/gear[14]/position-norm</property>
     <interpolation>
 	  <entry>
         <ind>0.0</ind>
@@ -5152,7 +5152,7 @@
   <animation>
     <type>translate</type>
     <object-name>Rstrut.002</object-name>
-    <property>gear/gear[22]/position-norm</property>
+    <property>gear/gear[14]/position-norm</property>
     <interpolation>
       <entry>
         <ind>0.0</ind>
@@ -5181,12 +5181,12 @@
         <expression>
             <sum>
                 <product>
-                    <property>gear/gear[23]/compression-norm</property>
+                    <property>gear/gear[15]/compression-norm</property>
                     <value>39</value>
                 </product>
                 <product>
                     <table>
-                        <property>gear/gear[23]/position-norm</property>
+                        <property>gear/gear[15]/position-norm</property>
                         <entry><ind>1</ind><dep>0</dep></entry>
                         <entry><ind>0</ind><dep>20</dep></entry>
                     </table>
@@ -5211,12 +5211,12 @@
         <expression>
             <sum>
                 <product>
-                    <property>gear/gear[24]/compression-norm</property>
+                    <property>gear/gear[16]/compression-norm</property>
                     <value>39</value>
                 </product>
                 <product>
                     <table>
-                        <property>gear/gear[24]/position-norm</property>
+                        <property>gear/gear[16]/position-norm</property>
                         <entry><ind>1</ind><dep>0</dep></entry>
                         <entry><ind>0</ind><dep>20</dep></entry>
                     </table>
